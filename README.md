@@ -2,8 +2,6 @@
 
 Chattrix is a full-stack communication platform built to demonstrate scalable frontend–backend architecture and real-time interaction concepts.
 
-This project focuses on clean system design, modular structure, and real-world development practices.
-
 ---
 
 ## Live Demo
@@ -61,19 +59,19 @@ Chattrix/
 ### Frontend
 - React.js
 - JavaScript
-- CSS / UI Framework (if used)
+- CSS / daisyui
 
 ### Backend
 - Node.js
 - Express.js
 
 ### Database
-- MongoDB (if applicable)
+- MongoDB 
 
 ### Tools
 - Git & GitHub
 - REST APIs
-- WebSockets (if implemented)
+- WebSockets (getstream.io)
 
 ---
 

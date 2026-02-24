@@ -1,88 +1,94 @@
 # Chattrix
 
-Chattrix is a full-stack communication platform built to demonstrate scalable frontend–backend architecture and real-time interaction concepts.
+Chattrix is a **full-stack communication platform** built to demonstrate scalable frontend–backend architecture and real-time interaction concepts.
 
 ---
 
-## Live Demo
+## 🚀 Live Demo
 
 🔗 **Demo:** https://chattrix-7wck.onrender.com/
 
 ---
 
-## Project Overview
+## 📖 Project Overview
 
-Chattrix is designed using a layered architecture:
+Chattrix follows a **layered architecture**:
 
-- Frontend → User interface & interaction
-- Backend → APIs and business logic
-- Database → Data persistence
+* **Frontend** → User interface & interaction
+* **Backend** → APIs and business logic
+* **Database** → Data persistence
 
-Key highlights:
+### ⭐ Key Highlights
 
-- Full-stack architecture
-- Modular folder structure
-- Scalable backend design
-- Real-time communication ready (WebSockets)
+* Full-stack architecture
+* Modular folder structure
+* Scalable backend design
+* Real-time communication ready (WebSockets)
 
 ---
 
 ## 📂 Project Structure
 
+```bash
 Chattrix/
 │
-├── frontend/ # Client-side application
-│ ├── src/ # Main source code
-│ │ ├── components/ # Reusable UI components
-│ │ ├── pages/ # Page-level components
-│ │ ├── services/ # API calls / integrations
-│ │ └── App.js # Main app entry
-│ │
-│ └── package.json # Frontend dependencies
+├── frontend/                 # Client-side application
+│   ├── src/                  # Main source code
+│   │   ├── components/       # Reusable UI components
+│   │   ├── pages/            # Page-level components
+│   │   ├── services/         # API calls / integrations
+│   │   └── App.js            # Main app entry
+│   └── package.json          # Frontend dependencies
 │
-├── backend/ # Server-side application
-│ ├── routes/ # API routes
-│ ├── controllers/ # Business logic
-│ ├── models/ # Database models
-│ ├── config/ # Configuration files
-│ └── server.js # Backend entry point
+├── backend/                  # Server-side application
+│   ├── routes/               # API routes
+│   ├── controllers/          # Business logic
+│   ├── models/               # Database models
+│   ├── config/               # Configuration files
+│   └── server.js             # Backend entry point
 │
 ├── README.md
 └── package.json
-
-
+```
 
 ---
 
 ## ⚙️ Tech Stack
 
 ### Frontend
-- React.js
-- JavaScript
-- CSS / daisyui
+
+* React.js
+* JavaScript
+* CSS / DaisyUI
 
 ### Backend
-- Node.js
-- Express.js
+
+* Node.js
+* Express.js
 
 ### Database
-- MongoDB 
+
+* MongoDB
 
 ### Tools
-- Git & GitHub
-- REST APIs
-- WebSockets (getstream.io)
+
+* Git & GitHub
+* REST APIs
+* WebSockets (getstream.io)
 
 ---
 
 ## 🏗️ Architecture (High Level)
+
+```
 User → Frontend UI → API / Socket Layer → Backend → Database
+```
 
+### Architecture Notes
 
-
-- REST APIs handle structured requests
-- Socket connection handles real-time events
-- Backend remains stateless for scalability
+* REST APIs handle structured requests
+* Socket connection handles real-time events
+* Backend remains stateless for scalability
 
 ---
 
@@ -93,25 +99,50 @@ User → Frontend UI → API / Socket Layer → Backend → Database
 ```bash
 git clone https://github.com/iffcharan/Chattrix.git
 cd Chattrix
+```
 
+---
 
 ### 2️⃣ Install Dependencies
 
-Frontend:
+#### Frontend
 
+```bash
 cd frontend
 npm install
+```
 
-Backend:
+#### Backend
 
+```bash
 cd backend
 npm install
-3️⃣ Start Application
+```
 
-Backend:
+---
 
+### 3️⃣ Start Application
+
+#### Backend
+
+```bash
 npm start
+```
 
-Frontend:
+#### Frontend
 
+```bash
 npm start
+```
+
+---
+
+## 🤝 Contribution
+
+Feel free to fork this repository and submit pull requests to improve the project.
+
+---
+
+## 📄 License
+
+This project is for educational and demonstration purposes.

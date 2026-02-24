@@ -96,4 +96,23 @@ User → Frontend UI → API / Socket Layer → Backend → Database
 git clone https://github.com/iffcharan/Chattrix.git
 cd Chattrix
 
+2️⃣ Install Dependencies
 
+Frontend:
+
+cd frontend
+npm install
+
+Backend:
+
+cd backend
+npm install
+3️⃣ Start Application
+
+Backend:
+
+npm start
+
+Frontend:
+
+npm start

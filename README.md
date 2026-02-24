@@ -30,3 +30,70 @@ Key highlights:
 ---
 
 ## 📂 Project Structure
+
+Chattrix/
+│
+├── frontend/ # Client-side application
+│ ├── src/ # Main source code
+│ │ ├── components/ # Reusable UI components
+│ │ ├── pages/ # Page-level components
+│ │ ├── services/ # API calls / integrations
+│ │ └── App.js # Main app entry
+│ │
+│ └── package.json # Frontend dependencies
+│
+├── backend/ # Server-side application
+│ ├── routes/ # API routes
+│ ├── controllers/ # Business logic
+│ ├── models/ # Database models
+│ ├── config/ # Configuration files
+│ └── server.js # Backend entry point
+│
+├── README.md
+└── package.json
+
+
+
+---
+
+## ⚙️ Tech Stack
+
+### Frontend
+- React.js
+- JavaScript
+- CSS / UI Framework (if used)
+
+### Backend
+- Node.js
+- Express.js
+
+### Database
+- MongoDB (if applicable)
+
+### Tools
+- Git & GitHub
+- REST APIs
+- WebSockets (if implemented)
+
+---
+
+## 🏗️ Architecture (High Level)
+User → Frontend UI → API / Socket Layer → Backend → Database
+
+
+
+- REST APIs handle structured requests
+- Socket connection handles real-time events
+- Backend remains stateless for scalability
+
+---
+
+## ▶️ Running Locally
+
+### 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/iffcharan/Chattrix.git
+cd Chattrix
+
+
